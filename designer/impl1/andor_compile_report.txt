@@ -1,13 +1,13 @@
 ***************************************************************************
                                Status Report
-                          Fri Jun 05 16:55:27 2015 ***************************************************************************
+                          Sat Sep 26 18:02:31 2015 ***************************************************************************
 
 Product: Designer
-Release: v11.5 SP2
-Version: 11.5.2.6
+Release: v11.5 SP3
+Version: 11.5.3.10
 File Name: C:\Actelprj\andor\designer\impl1\andor.adb
 Design Name: andor  Design State: compile
-Last Saved: Fri Jun 05 15:54:42 2015
+Last Saved: Fri Jun 05 16:59:42 2015
 
 ***** Device Data **************************************************
 
@@ -22,7 +22,7 @@ Voltage Range:   COM
 
 ***** Import Variables *********************************************
 
-Source File(s) Imported on Fri Jun 05 16:55:19 2015:
+Source File(s) Imported on Sat Sep 26 18:02:23 2015:
         C:\Actelprj\andor\synthesis\andor.edn
 
 
@@ -159,11 +159,9 @@ I/O Technology:
 
 I/O Placement:
 
-    Locked  :   4 ( 50.00% )
+    Locked  :   8 ( 100.00% )
     Placed  :   0
-    UnPlaced:   4 ( 50.00% )
-
-Warning: Only some I/Os are locked
+    UnPlaced:   0
 
 Net information report:
 =======================

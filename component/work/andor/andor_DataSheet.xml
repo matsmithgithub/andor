@@ -12,7 +12,7 @@
     <project-description>
     </project-description>
     <location>C:/Actelprj/andor/component/work/andor</location>
-    <state>GENERATED ( Fri Jun 05 16:53:14 2015 )</state>
+    <state>GENERATED ( Sat Sep 26 18:01:39 2015 )</state>
     <swide-toolchain>SoftConsole workspace generated to C:\Actelprj\andor\SoftConsole</swide-toolchain>
   </project-settings>
   <site-map>
@@ -28,7 +28,7 @@
   </fileset>
   <fileset>
     <name>Flash Memory File(s)</name>
-    <file>C:\Actelprj\andor\component\work\C:/Actelprj/andor/component/work/andor_MSS/MSS_ENVM_0/MSS_ENVM_0.efc</file>
+    <file>C:\Actelprj\andor\component\work\./MSS_ENVM_0/MSS_ENVM_0.efc</file>
   </fileset>
   <io>
     <port-name>LED[1]</port-name>

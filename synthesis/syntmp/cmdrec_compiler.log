@@ -1,13 +1,13 @@
 C:\Microsemi\Libero_v11.5\Synopsys\synplify_I201403MSP1\bin64\c_ver.exe  -osyn  C:\Actelprj\andor\synthesis\synwork\andor_comp.srs  -top  andor  -prodtype  synplify_pro  -nram -fixsmult -divnmod   -I C:\Actelprj\andor\synthesis\  -I C:\Microsemi\Libero_v11.5\Synopsys\synplify_I201403MSP1\lib   -v2001  -devicelib  C:\Microsemi\Libero_v11.5\Synopsys\synplify_I201403MSP1\lib\proasic\smartfusion.v  -encrypt  -pro  -dmgen  C:\Actelprj\andor\synthesis\dm  -ui -fid2 -ram -sharing on -ll 2000 -autosm  -lib work C:\Actelprj\andor\component\work\andor_MSS\mss_tshell.v -lib work C:\Actelprj\andor\component\Actel\SmartFusionMSS\MSS\2.5.106\mss_comps.v -lib work C:\Actelprj\andor\component\work\andor_MSS\MSS_CCC_0\andor_MSS_tmp_MSS_CCC_0_MSS_CCC.v -lib work C:\Actelprj\andor\component\work\andor_MSS\andor_MSS.v -lib work C:\Actelprj\andor\hdl\myando.v -lib work C:\Actelprj\andor\component\work\andor\andor.v  -log  C:\Actelprj\andor\synthesis\synlog\andor_compiler.srr 
 rc:1 success:1
-C:\Actelprj\andor\synthesis\synwork\andor_comp.srs|o|1433537700|10305
+C:\Actelprj\andor\synthesis\synwork\andor_comp.srs|o|1443304921|10312
 C:\Microsemi\Libero_v11.5\Synopsys\synplify_I201403MSP1\lib\proasic\smartfusion.v|i|1412951262|72817
 C:\Actelprj\andor\component\work\andor_MSS\mss_tshell.v|i|1433537529|12226
 C:\Actelprj\andor\component\Actel\SmartFusionMSS\MSS\2.5.106\mss_comps.v|i|1395699029|11243
 C:\Actelprj\andor\component\work\andor_MSS\MSS_CCC_0\andor_MSS_tmp_MSS_CCC_0_MSS_CCC.v|i|1433537523|2886
 C:\Actelprj\andor\component\work\andor_MSS\andor_MSS.v|i|1433537548|15771
 C:\Actelprj\andor\hdl\myando.v|i|1433536483|613
-C:\Actelprj\andor\component\work\andor\andor.v|i|1433537554|1663
-C:\Actelprj\andor\synthesis\synlog\andor_compiler.srr|o|1433537700|5520
+C:\Actelprj\andor\component\work\andor\andor.v|i|1443304896|1664
+C:\Actelprj\andor\synthesis\synlog\andor_compiler.srr|o|1443304921|5520
 C:\Microsemi\Libero_v11.5\Synopsys\synplify_I201403MSP1\bin\c_ver.exe|i|1412907176|2306560
 C:\Microsemi\Libero_v11.5\Synopsys\synplify_I201403MSP1\bin64\c_ver.exe|i|1412907378|5845504

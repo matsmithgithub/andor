@@ -2,7 +2,7 @@
 #define andor_HW_PLATFORM_H_
 /*****************************************************************************
 *
-*Created by Microsemi SmartDesign  Fri Jun 05 16:52:37 2015
+*Created by Microsemi SmartDesign  Sat Sep 26 18:01:38 2015
 *
 *Memory map specification for peripherals in andor
 */

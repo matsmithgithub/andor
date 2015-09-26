@@ -34,9 +34,9 @@ Finished Pre Mapping Phase.
 @N: BN225 |Writing default property annotation file C:\Actelprj\andor\synthesis\andor.sap.
 Pre-mapping successful!
 
-At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 46MB peak: 111MB)
+At Mapper Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:00s; Memory used current: 46MB peak: 111MB)
 
-Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Fri Jun 05 16:55:04 2015
+Process took 0h:00m:02s realtime, 0h:00m:01s cputime
+# Sat Sep 26 18:02:06 2015
 
 ###########################################################]

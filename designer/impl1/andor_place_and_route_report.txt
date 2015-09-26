@@ -1,13 +1,13 @@
 ***************************************************************************
                                Status Report
-                          Fri Jun 05 16:59:05 2015 ***************************************************************************
+                          Sat Sep 26 18:03:02 2015 ***************************************************************************
 
 Product: Designer
-Release: v11.5 SP2
-Version: 11.5.2.6
+Release: v11.5 SP3
+Version: 11.5.3.10
 File Name: C:\Actelprj\andor\designer\impl1\andor.adb
 Design Name: andor  Design State: layout
-Last Saved: Fri Jun 05 16:58:23 2015
+Last Saved: Sat Sep 26 18:02:32 2015
 
 ***** Device Data **************************************************
 
@@ -22,7 +22,7 @@ Voltage Range:   COM
 
 ***** Import Variables *********************************************
 
-Source File(s) Imported on Fri Jun 05 16:55:19 2015:
+Source File(s) Imported on Sat Sep 26 18:02:23 2015:
         C:\Actelprj\andor\synthesis\andor.edn
 
 
@@ -159,11 +159,9 @@ I/O Technology:
 
 I/O Placement:
 
-    Locked  :   4 ( 50.00% )
+    Locked  :   8 ( 100.00% )
     Placed  :   0
-    UnPlaced:   4 ( 50.00% )
-
-Warning: Only some I/Os are locked
+    UnPlaced:   0
 
 Net information report:
 =======================
@@ -250,16 +248,16 @@ Global net placement completed successfully.
 
                         o - o - o - o - o - o
 
-Timing-driven Placer Started: Fri Jun 05 16:58:46 2015
+Timing-driven Placer Started: Sat Sep 26 18:02:42 2015
 
-Placer Finished: Fri Jun 05 16:58:49 2015
-Total Placer CPU Time:     00:00:03
+Placer Finished: Sat Sep 26 18:02:46 2015
+Total Placer CPU Time:     00:00:04
 
                         o - o - o - o - o - o
 
 
 Timing-driven Router 
-Design: andor                           Started: Fri Jun 05 16:58:53 2015
+Design: andor                           Started: Sat Sep 26 18:02:49 2015
 
  
 Iterative improvement...
@@ -267,7 +265,7 @@ Iterative improvement...
 Timing-driven Router completed successfully.
 
 Design: andor                           
-Finished: Fri Jun 05 16:59:02 2015
+Finished: Sat Sep 26 18:02:58 2015
 Total CPU Time:     00:00:07            Total Elapsed Time: 00:00:09
 Total Memory Usage: 157.6 Mbytes
                         o - o - o - o - o - o

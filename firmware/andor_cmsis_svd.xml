@@ -2,7 +2,7 @@
 <device>
   <name>andor</name>
   <version>1.0</version>
-  <description>CMSIS description for andor.  Created by Microsemi SmartDesign on Fri Jun 05 16:52:37 2015</description>
+  <description>CMSIS description for andor.  Created by Microsemi SmartDesign on Sat Sep 26 18:01:38 2015</description>
   <addressUnitBits>8</addressUnitBits>
   <width>32</width>
   <peripherals>

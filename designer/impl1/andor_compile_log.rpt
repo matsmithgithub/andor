@@ -1,6 +1,6 @@
 Microsemi Libero Software
-Version: 11.5.2.6
-Release: v11.5 SP2
+Version: 11.5.3.10
+Release: v11.5 SP3
 
 Info: The design andor.adb was last modified by software version 11.5.2.6.
 Opened an existing Libero design andor.adb.
@@ -12,7 +12,7 @@ Opened an existing Libero design andor.adb.
 'IDE_DESIGNERVIEW_ROOTDIR' set to 'C:\Actelprj\andor\designer'
 'IDE_DESIGNERVIEW_LASTREV' set to '1'
 
- Netlist Reading Time = 0.0 seconds
+ Netlist Reading Time = 1.0 seconds
 Imported the file:
    C:\Actelprj\andor\synthesis\andor.edn
 
@@ -134,11 +134,9 @@ I/O Technology:
 
 I/O Placement:
 
-    Locked  :   4 ( 50.00% )
+    Locked  :   8 ( 100.00% )
     Placed  :   0
-    UnPlaced:   4 ( 50.00% )
-
-Warning: Only some I/Os are locked
+    UnPlaced:   0
 
 Net information report:
 =======================
@@ -201,18 +199,18 @@ Nets that are candidates for clock assignment and the resulting fanout:
     1       INT_NET       Net   : myandor_0/N_18
                           Driver: myandor_0/count_6
 
-The Compile command succeeded ( 00:00:02 )
+The Compile command succeeded ( 00:00:03 )
 Wrote status report to file: andor_compile_report.txt
 
 The Report command succeeded ( 00:00:00 )
 Wrote pin report to file: andor_report_pin_byname.txt
 
-The Report command succeeded ( 00:00:01 )
+The Report command succeeded ( 00:00:00 )
 Wrote pin report to file: andor_report_pin_bynumber.txt
 
 The Report command succeeded ( 00:00:01 )
 Design saved to file C:\Actelprj\andor\designer\impl1\andor.adb.
 
-The Execute Script command succeeded ( 00:00:12 )
+The Execute Script command succeeded ( 00:00:14 )
 Design closed.
 

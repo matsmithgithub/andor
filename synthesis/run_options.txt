@@ -1,7 +1,7 @@
 #--  Synopsys, Inc.
 #--  Version I-2014.03M-SP1
 #--  Project file C:\Actelprj\andor\synthesis\run_options.txt
-#--  Written on Fri Jun 05 16:54:59 2015
+#--  Written on Sat Sep 26 18:02:00 2015
 
 
 #project files

@@ -28,7 +28,7 @@ Implementation;Synthesis|| MT420 ||@W:Found inferred clock myandor|Q1_inferred_c
 Implementation;Synthesis|| MT548 ||@W:Source for clock FCLK not found in netlist||andor.srr(266);liberoaction://cross_probe/hdl/file/'C:\Actelprj\andor\synthesis\andor.srr'/linenumber/266||mss_tshell_syn.sdc(2);liberoaction://cross_probe/hdl/file/'c:/actelprj/andor/component/work/andor_mss/mss_tshell_syn.sdc'/linenumber/2
 Implementation;Synthesis||(null)||Please refer to the log file for details about 26 Warning(s)||andor.srr;liberoaction://open_report/file/andor.srr||(null);(null)
 Implementation;Compile;RootName:andor
-Implementation;Compile||(null)||Please refer to the log file for details about 6 Warning(s) , 1 Info(s)||andor_compile_log.rpt;liberoaction://open_report/file/andor_compile_log.rpt||(null);(null)
+Implementation;Compile||(null)||Please refer to the log file for details about 5 Warning(s) , 1 Info(s)||andor_compile_log.rpt;liberoaction://open_report/file/andor_compile_log.rpt||(null);(null)
 Implementation;Place and Route;RootName:andor
 Implementation;Place and Route||(null)||Please refer to the log file for details about 2 Info(s)||andor_placeroute_log.rpt;liberoaction://open_report/file/andor_placeroute_log.rpt||(null);(null)
 Implementation;Generate BitStream;RootName:andor

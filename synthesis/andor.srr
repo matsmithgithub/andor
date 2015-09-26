@@ -66,7 +66,7 @@ Selecting top level module andor
 At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 71MB peak: 72MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Fri Jun 05 16:55:00 2015
+# Sat Sep 26 18:02:01 2015
 
 ###########################################################]
 Synopsys Netlist Linker, version comp201403sp1p1, Build 095R, built Oct  9 2014
@@ -76,7 +76,7 @@ File C:\Actelprj\andor\synthesis\synwork\andor_comp.srs changed - recompiling
 At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Fri Jun 05 16:55:02 2015
+# Sat Sep 26 18:02:03 2015
 
 ###########################################################]
 Pre-mapping Report
@@ -117,10 +117,10 @@ Finished Pre Mapping Phase.
 @N: BN225 |Writing default property annotation file C:\Actelprj\andor\synthesis\andor.sap.
 Pre-mapping successful!
 
-At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 46MB peak: 111MB)
+At Mapper Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:00s; Memory used current: 46MB peak: 111MB)
 
-Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Fri Jun 05 16:55:04 2015
+Process took 0h:00m:02s realtime, 0h:00m:01s cputime
+# Sat Sep 26 18:02:06 2015
 
 ###########################################################]
 Map & Optimize Report
@@ -155,13 +155,13 @@ Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00
 
 @N:"c:\actelprj\andor\hdl\myando.v":23:0:23:5|Found counter in view:work.myandor(verilog) inst count[2:0]
 
-Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 110MB)
+Finished factoring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 110MB)
 
 
-Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 110MB)
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 110MB)
 
 
-Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 110MB)
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 110MB)
 
 
 Starting Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 110MB peak: 110MB)
@@ -188,7 +188,7 @@ Added 0 Cells via replication
 	Added 0 Sequential Cells via replication
 	Added 0 Combinational Cells via replication
 
-Finished restoring hierarchy (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 109MB peak: 110MB)
+Finished restoring hierarchy (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 110MB)
 
 
 
@@ -232,7 +232,7 @@ Found clock FAB_CLK with period 10.00ns
 
 
 @S |##### START OF TIMING REPORT #####[
-# Timing Report written on Fri Jun 05 16:55:07 2015
+# Timing Report written on Sat Sep 26 18:02:09 2015
 #
 
 
@@ -470,6 +470,6 @@ Mapper successful!
 At Mapper Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 47MB peak: 111MB)
 
 Process took 0h:00m:02s realtime, 0h:00m:01s cputime
-# Fri Jun 05 16:55:07 2015
+# Sat Sep 26 18:02:09 2015
 
 ###########################################################]

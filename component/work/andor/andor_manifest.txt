@@ -1,6 +1,6 @@
-Microsemi Corporation - Microsemi Libero Software Release v11.5 SP2 (Version 11.5.2.6)
+Microsemi Corporation - Microsemi Libero Software Release v11.5 SP3 (Version 11.5.3.10)
 
-Date      :  Fri Jun 05 16:53:15 2015
+Date      :  Sat Sep 26 18:01:40 2015
 Project   :  C:\Actelprj\andor
 Component :  andor
 Family    :  SmartFusion

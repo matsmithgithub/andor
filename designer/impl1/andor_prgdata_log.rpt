@@ -1,18 +1,18 @@
 Microsemi Libero Software
-Version: 11.5.2.6
-Release: v11.5 SP2
+Version: 11.5.3.10
+Release: v11.5 SP3
 
 Info: The design C:/Actelprj/andor/designer/impl1/andor.adb was last modified by software
-      version 11.5.2.6.
+      version 11.5.3.10.
 Opened an existing Libero design C:/Actelprj/andor/designer/impl1/andor.adb.
 
-The Export-map command succeeded ( 00:00:19 )
+The Export-map command succeeded ( 00:00:18 )
 CHECKSUM: 7056
 Wrote to the file: C:\Actelprj\andor\designer\impl1\andor.fdb
 
 The Export command succeeded ( 00:00:21 )
 Design saved to file C:/Actelprj/andor/designer/impl1/andor.adb.
 
-The Execute Script command succeeded ( 00:00:26 )
+The Execute Script command succeeded ( 00:00:25 )
 Design closed.
 

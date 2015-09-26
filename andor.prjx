@@ -1,6 +1,7 @@
 KEY LIBERO "11.5"
-KEY CAPTURE "11.5.2.6"
+KEY CAPTURE "11.5.3.10"
 KEY DEFAULT_IMPORT_LOC "C:\Libero_projects\test_fabric2\hdl"
+KEY DEFAULT_OPEN_LOC ""
 KEY ProjectID "0"
 KEY HDLTechnology "VERILOG"
 KEY VendorTechnology_Family "SmartFusion"
@@ -8,9 +9,14 @@ KEY VendorTechnology_Die "IP4X3M1"
 KEY VendorTechnology_Package "fg484"
 KEY VendorTechnology_Speed "STD"
 KEY VendorTechnology_DieVoltage "1.5"
+KEY VendorTechnology_DSW_VCCA_VOLTAGE_RAMP_RATE ""
 KEY VendorTechnology_IO_DEFT_STD "LVTTL"
+KEY VendorTechnology_OPCONR ""
 KEY VendorTechnology_PART_RANGE "COM"
+KEY VendorTechnology_PLL_SUPPLY ""
+KEY VendorTechnology_RAD_EXPOSURE ""
 KEY VendorTechnology_RESTRICTPROBEPINS "1"
+KEY VendorTechnology_SYSTEM_CONTROLLER_SUSPEND_MODE ""
 KEY VendorTechnology_TEMPR "COM"
 KEY VendorTechnology_UNUSED_MSS_IO_RESISTOR_PULL "None"
 KEY VendorTechnology_VCCI_1.5_VOLTR "COM"
@@ -195,20 +201,30 @@ END_USE_CONSTRAINT
 USE_FOR_ANY_TOOL="FALSE"
 IS_READONLY="TRUE"
 ENDFILE
+VALUE "<project>\component\work\DESIGN_FIRMWARE\DESIGN_FIRMWARE.cxf,actgen_cxf"
+STATE="utd"
+TIME="1433537555"
+SIZE="1863"
+ENDFILE
+VALUE "<project>\component\work\DESIGN_IO\DESIGN_IO.cxf,actgen_cxf"
+STATE="utd"
+TIME="1433532502"
+SIZE="413"
+ENDFILE
 VALUE "<project>\designer\impl1\andor.adb,adb"
 STATE="utd"
-TIME="1433533561"
-SIZE="18432"
+TIME="1433537982"
+SIZE="66048"
 ENDFILE
 VALUE "<project>\designer\impl1\andor.fdb,fdb"
 STATE="utd"
-TIME="1433537982"
+TIME="1433538007"
 SIZE="33651"
 ENDFILE
 VALUE "<project>\designer\impl1\andor.ide_des,ide_des"
 STATE="utd"
-TIME="1433523527"
-SIZE="174"
+TIME="1433537983"
+SIZE="920"
 ENDFILE
 VALUE "<project>\designer\impl1\andor_compile_log.rpt,log"
 STATE="utd"
@@ -217,18 +233,18 @@ SIZE="8537"
 ENDFILE
 VALUE "<project>\designer\impl1\andor_fp\andor.pdb,pdb"
 STATE="utd"
-TIME="1433534165"
-SIZE="33477"
+TIME="1433538058"
+SIZE="39067"
 ENDFILE
 VALUE "<project>\designer\impl1\andor_fp\andor.pro,pro"
 STATE="utd"
-TIME="1433534165"
+TIME="1433538058"
 SIZE="2555"
 ENDFILE
 VALUE "<project>\designer\impl1\andor_fp\projectData\andor.pdb,pdb"
 STATE="utd"
-TIME="1433534165"
-SIZE="33477"
+TIME="1433538058"
+SIZE="39067"
 ENDFILE
 VALUE "<project>\designer\impl1\andor_placeroute_log.rpt,log"
 STATE="utd"
@@ -276,27 +292,27 @@ PARENT="<project>\component\work\andor_MSS\andor_MSS.cxf"
 ENDFILE
 VALUE "<project>\synthesis\andor.edn,syn_edn"
 STATE="utd"
-TIME="1433533438"
-SIZE="6941"
+TIME="1433537707"
+SIZE="27818"
 ENDFILE
 VALUE "<project>\synthesis\andor.so,so"
 STATE="utd"
-TIME="1433532990"
-SIZE="159"
+TIME="1433537707"
+SIZE="197"
 ENDFILE
 VALUE "<project>\synthesis\andor_sdc.sdc,syn_sdc"
 STATE="utd"
-TIME="1433533438"
-SIZE="310"
+TIME="1433537707"
+SIZE="423"
 ENDFILE
 VALUE "<project>\synthesis\andor_syn.prj,prj"
 STATE="utd"
-TIME="1433532991"
-SIZE="1539"
+TIME="1433537707"
+SIZE="1980"
 ENDFILE
 VALUE "<project>\synthesis\synwork\andor_comp.so,so"
 STATE="utd"
-TIME="1433532990"
+TIME="1433533286"
 SIZE="159"
 ENDFILE
 ENDLIST
@@ -410,8 +426,8 @@ NAME="Synplify Pro ME"
 FUNCTION="Synthesis"
 TOOL="Synplify Pro ME"
 LOCATION="C:\Microsemi\Libero_v11.5\Synopsys\synplify_I201403MSP1\bin\synplify_pro.exe"
-PARAM="-licensetype synplifypro_actel -batch -log synplify.log"
-BATCH=1
+PARAM=""
+BATCH=0
 LICENSE=""
 IS32BIT="1"
 EndProfile
@@ -470,12 +486,8 @@ LIST UserCustomizedFileList
 ENDLIST
 LIST OpenedFileList
 ORIENTATION;HORIZONTAL
-Reports;Reports;0
-ReportsCurrentItem;Generate Programming Data:andor_prgdata_log.rpt
 StartPage;StartPage;0
-SmartDesign;andor_MSS;0
-SmartDesign;andor;0
-ACTIVEVIEW;Reports
+ACTIVEVIEW;StartPage
 ENDLIST
 LIST ModuleSubBlockList
 LIST "andor::work","component\work\andor\andor.v","TRUE","FALSE"
@@ -493,6 +505,20 @@ LIST "BIBUF_MSS::work","component\Actel\SmartFusionMSS\MSS\2.5.106\mss_comps.v",
 ENDLIST
 LIST "BIBUF_OPEND_MSS::work","component\Actel\SmartFusionMSS\MSS\2.5.106\mss_comps.v","FALSE","FALSE"
 ENDLIST
+LIST "DESIGN_FIRMWARE::work","component\work\DESIGN_FIRMWARE\DESIGN_FIRMWARE.cxf","TRUE","FALSE"
+SUBBLOCK "HAL::work","","FALSE","FALSE"
+SUBBLOCK "MSS_GPIO_Driver::work","","FALSE","FALSE"
+SUBBLOCK "MSS_IAP_Driver::work","","FALSE","FALSE"
+SUBBLOCK "MSS_NVM_Driver::work","","FALSE","FALSE"
+SUBBLOCK "MSS_PDMA_Driver::work","","FALSE","FALSE"
+SUBBLOCK "MSS_RTC_Driver::work","","FALSE","FALSE"
+SUBBLOCK "MSS_Timer_Driver::work","","FALSE","FALSE"
+SUBBLOCK "SmartFusion_CMSIS_PAL::work","","FALSE","FALSE"
+ENDLIST
+LIST "DESIGN_IO::work","component\work\DESIGN_IO\DESIGN_IO.cxf","TRUE","FALSE"
+ENDLIST
+LIST "HAL::work","","FALSE","FALSE"
+ENDLIST
 LIST "INBUF_LVDS_MCCC::work","component\Actel\SmartFusionMSS\MSS\2.5.106\mss_comps.v","FALSE","FALSE"
 ENDLIST
 LIST "INBUF_LVPECL_MCCC::work","component\Actel\SmartFusionMSS\MSS\2.5.106\mss_comps.v","FALSE","FALSE"
@@ -507,7 +533,19 @@ LIST "MSS_APB::work","component\work\andor_MSS\mss_tshell.v","FALSE","FALSE"
 ENDLIST
 LIST "MSS_CCC::work","component\Actel\SmartFusionMSS\MSS\2.5.106\mss_comps.v","FALSE","FALSE"
 ENDLIST
+LIST "MSS_GPIO_Driver::work","","FALSE","FALSE"
+ENDLIST
+LIST "MSS_IAP_Driver::work","","FALSE","FALSE"
+ENDLIST
 LIST "MSS_LPXTLOSC::work","component\Actel\SmartFusionMSS\MSS\2.5.106\mss_comps.v","FALSE","FALSE"
+ENDLIST
+LIST "MSS_NVM_Driver::work","","FALSE","FALSE"
+ENDLIST
+LIST "MSS_PDMA_Driver::work","","FALSE","FALSE"
+ENDLIST
+LIST "MSS_RTC_Driver::work","","FALSE","FALSE"
+ENDLIST
+LIST "MSS_Timer_Driver::work","","FALSE","FALSE"
 ENDLIST
 LIST "MSS_XTLOSC::work","component\Actel\SmartFusionMSS\MSS\2.5.106\mss_comps.v","FALSE","FALSE"
 ENDLIST
@@ -516,6 +554,8 @@ ENDLIST
 LIST "myandor::work","hdl\myando.v","FALSE","FALSE"
 ENDLIST
 LIST "OUTBUF_MSS::work","component\Actel\SmartFusionMSS\MSS\2.5.106\mss_comps.v","FALSE","FALSE"
+ENDLIST
+LIST "SmartFusion_CMSIS_PAL::work","","FALSE","FALSE"
 ENDLIST
 LIST "TRIBUFF_MSS::work","component\Actel\SmartFusionMSS\MSS\2.5.106\mss_comps.v","FALSE","FALSE"
 ENDLIST

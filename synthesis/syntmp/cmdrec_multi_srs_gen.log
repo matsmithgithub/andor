@@ -1,7 +1,7 @@
 C:\Microsemi\Libero_v11.5\Synopsys\synplify_I201403MSP1\bin64\syn_nfilter.exe  -link  -top  andor  -multisrs  C:\Actelprj\andor\synthesis\synwork\andor_comp.srs  -osyn  C:\Actelprj\andor\synthesis\synwork\andor_mult.srs  -log  C:\Actelprj\andor\synthesis\synlog\andor_multi_srs_gen.srr 
 rc:0 success:1
-C:\Actelprj\andor\synthesis\synwork\andor_comp.srs|i|1433537700|10305
-C:\Actelprj\andor\synthesis\synwork\andor_mult.srs|o|1433537702|2487
-C:\Actelprj\andor\synthesis\synlog\andor_multi_srs_gen.srr|o|1433537702|456
+C:\Actelprj\andor\synthesis\synwork\andor_comp.srs|i|1443304921|10312
+C:\Actelprj\andor\synthesis\synwork\andor_mult.srs|o|1443304923|2487
+C:\Actelprj\andor\synthesis\synlog\andor_multi_srs_gen.srr|o|1443304923|456
 C:\Microsemi\Libero_v11.5\Synopsys\synplify_I201403MSP1\bin\syn_nfilter.exe|i|1412907262|2743296
 C:\Microsemi\Libero_v11.5\Synopsys\synplify_I201403MSP1\bin64\syn_nfilter.exe|i|1412907456|6340608
