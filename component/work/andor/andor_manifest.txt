@@ -1,0 +1,14 @@
+Microsemi Corporation - Microsemi Libero Software Release v11.5 SP2 (Version 11.5.2.6)
+
+Date      :  Fri Jun 05 16:53:15 2015
+Project   :  C:\Actelprj\andor
+Component :  andor
+Family    :  SmartFusion
+
+
+HDL source files for all Synthesis and Simulation tools:
+    C:/Actelprj/andor/component/work/andor/andor.v
+
+Stimulus files for all Simulation tools:
+    C:/Actelprj/andor/component/work/andor/subsystem.bfm
+

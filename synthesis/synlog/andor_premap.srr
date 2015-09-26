@@ -1,0 +1,42 @@
+Synopsys Microsemi Technology Pre-mapping, Version mapact, Build 1346R, Built Oct 10 2014 11:20:09
+Copyright (C) 1994-2014, Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+Product Version I-2014.03M-SP1
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+Reading constraint file: C:\Actelprj\andor\component\work\andor_MSS\mss_tshell_syn.sdc
+@L: C:\Actelprj\andor\synthesis\andor_scck.rpt 
+Printing clock  summary report in "C:\Actelprj\andor\synthesis\andor_scck.rpt" file 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled 
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+
+@S |Clock Summary
+****************
+
+Start                         Requested     Requested     Clock        Clock              
+Clock                         Frequency     Period        Type         Group              
+------------------------------------------------------------------------------------------
+FAB_CLK                       100.0 MHz     10.000        declared     clk_group_0        
+FCLK                          100.0 MHz     10.000        declared     clk_group_0        
+myandor|Q1_inferred_clock     100.0 MHz     10.000        inferred     Inferred_clkgroup_0
+==========================================================================================
+
+@W: MT530 :"c:\actelprj\andor\hdl\myando.v":23:0:23:5|Found inferred clock myandor|Q1_inferred_clock which controls 3 sequential elements including myandor_0.count[2:0]. This clock has no specified timing constraint which may adversely impact design performance. 
+
+Finished Pre Mapping Phase.
+@N: BN225 |Writing default property annotation file C:\Actelprj\andor\synthesis\andor.sap.
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 46MB peak: 111MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Fri Jun 05 16:55:04 2015
+
+###########################################################]

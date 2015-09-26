@@ -1,0 +1,2 @@
+@E: CL219 :"C:\Actelprj\andor\hdl\myando.v":6:18:6:20|Multiple non-tristate drivers for net LED[0] in myandor
+

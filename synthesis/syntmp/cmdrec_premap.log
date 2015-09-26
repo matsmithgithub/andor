@@ -1,0 +1,14 @@
+C:\Microsemi\Libero_v11.5\Synopsys\synplify_I201403MSP1\bin64\m_proasic.exe  -prodtype  synplify_pro   -encrypt  -pro  -rundir  C:\Actelprj\andor\synthesis   -part A2F200M3F  -package FBGA484  -grade STD    -globalthreshold 50 -maxfan 24 -opcond COMWC -report_path 0 -RWCheckOnRam 0 -summaryfile C:\Actelprj\andor\synthesis\synlog\report\andor_premap.xml  -top_level_module  andor  -oedif  C:\Actelprj\andor\synthesis\andor.edn  -conchk_prepass  C:\Actelprj\andor\synthesis\andor_cck_prepass.rpt   -freq 100.000   -tcl  C:\Actelprj\andor\component\work\andor_MSS\mss_tshell_syn.sdc  C:\Actelprj\andor\synthesis\synwork\andor_mult.srs  -flow prepass  -gcc_prepass  -osrd  C:\Actelprj\andor\synthesis\synwork\andor_prem.srd  -qsap  C:\Actelprj\andor\synthesis\andor.sap  -devicelib  C:\Microsemi\Libero_v11.5\Synopsys\synplify_I201403MSP1\lib\proasic\smartfusion.v  -ologparam  C:\Actelprj\andor\synthesis\syntmp\andor.plg  -osyn  C:\Actelprj\andor\synthesis\synwork\andor_prem.srd  -prjdir  C:\Actelprj\andor\synthesis\  -prjname  andor_syn  -log  C:\Actelprj\andor\synthesis\synlog\andor_premap.srr 
+rc:1 success:1
+C:\Actelprj\andor\synthesis\andor.edn|o|1433533438|6941
+C:\Actelprj\andor\synthesis\andor_cck_prepass.rpt|o|0|0
+C:\Actelprj\andor\component\work\andor_MSS\mss_tshell_syn.sdc|i|1433537529|190
+C:\Actelprj\andor\synthesis\synwork\andor_mult.srs|i|1433537702|2487
+C:\Actelprj\andor\synthesis\synwork\andor_prem.srd|o|1433537704|7210
+C:\Actelprj\andor\synthesis\andor.sap|o|1433537704|1277
+C:\Microsemi\Libero_v11.5\Synopsys\synplify_I201403MSP1\lib\proasic\smartfusion.v|i|1412951262|72817
+C:\Actelprj\andor\synthesis\syntmp\andor.plg|o|1433537703|0
+C:\Actelprj\andor\synthesis\synwork\andor_prem.srd|o|1433537704|7210
+C:\Actelprj\andor\synthesis\synlog\andor_premap.srr|o|1433537704|2520
+C:\Microsemi\Libero_v11.5\Synopsys\synplify_I201403MSP1\bin\m_proasic.exe|i|1412952226|12576768
+C:\Microsemi\Libero_v11.5\Synopsys\synplify_I201403MSP1\bin64\m_proasic.exe|i|1412954416|15337984

@@ -1,0 +1,2 @@
+CKID0001:@|S:myandor_0.Q1@|E:myandor_0.count[0]@|F:@syn_sample_clock_path==CKID0001@|M:ClockId0001 
+CKID0002:@|S:andor_MSS_0@|E:myandor_0.Q1@|F:@syn_sample_clock_path1==CKID0002@|M:ClockId0002 

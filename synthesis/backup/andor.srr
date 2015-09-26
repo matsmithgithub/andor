@@ -1,0 +1,29 @@
+#Build: Synplify Pro I-2014.03M-SP1, Build 097R, Oct  9 2014
+#install: C:\Microsemi\Libero_v11.5\Synopsys\synplify_I201403MSP1
+#OS: Windows 7 6.1
+#Hostname: ZARDOSE
+
+#Implementation: synthesis
+
+Synopsys Verilog Compiler, version comp201403sp1p1, Build 095R, built Oct  9 2014
+@N|Running in 64-bit mode
+Copyright (C) 1994-2014 Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+
+@I::"C:\Microsemi\Libero_v11.5\Synopsys\synplify_I201403MSP1\lib\proasic\smartfusion.v"
+@I::"C:\Microsemi\Libero_v11.5\Synopsys\synplify_I201403MSP1\lib\vlog\umr_capim.v"
+@I::"C:\Microsemi\Libero_v11.5\Synopsys\synplify_I201403MSP1\lib\vlog\scemi_objects.v"
+@I::"C:\Microsemi\Libero_v11.5\Synopsys\synplify_I201403MSP1\lib\vlog\scemi_pipes.svh"
+@I::"C:\Microsemi\Libero_v11.5\Synopsys\synplify_I201403MSP1\lib\vlog\hypermods.v"
+@I::"C:\Actelprj\andor\hdl\myando.v"
+@I::"C:\Actelprj\andor\component\work\andor\andor.v"
+Verilog syntax check successful!
+Selecting top level module andor
+@N: CG364 :"C:\Actelprj\andor\hdl\myando.v":3:7:3:13|Synthesizing module myandor
+
+@N: CG364 :"C:\Actelprj\andor\component\work\andor\andor.v":9:7:9:11|Synthesizing module andor
+
+@E: CL219 :"C:\Actelprj\andor\hdl\myando.v":6:18:6:20|Multiple non-tristate drivers for net LED[0] in myandor
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Fri Jun 05 15:36:30 2015
+
+###########################################################]

@@ -1,0 +1,16 @@
+C:\Microsemi\Libero_v11.5\Synopsys\synplify_I201403MSP1\bin64\m_proasic.exe  -prodtype  synplify_pro   -encrypt  -pro  -rundir  C:\Actelprj\andor\synthesis   -part A2F200M3F  -package FBGA484  -grade STD    -globalthreshold 50 -maxfan 24 -opcond COMWC -report_path 0 -RWCheckOnRam 0 -summaryfile C:\Actelprj\andor\synthesis\synlog\report\andor_fpga_mapper.xml  -top_level_module  andor  -flow mapping  -mp  1  -prjfile  C:\Actelprj\andor\synthesis\scratchproject.prs  -implementation  synthesis  -licensetype  synplifypro_actel  -multisrs  -oedif  C:\Actelprj\andor\synthesis\andor.edn   -freq 100.000   -tcl  C:\Actelprj\andor\component\work\andor_MSS\mss_tshell_syn.sdc  C:\Actelprj\andor\synthesis\synwork\andor_prem.srd  -sap  C:\Actelprj\andor\synthesis\andor.sap  -otap  C:\Actelprj\andor\synthesis\andor.tap  -omap  C:\Actelprj\andor\synthesis\andor.map  -devicelib  C:\Microsemi\Libero_v11.5\Synopsys\synplify_I201403MSP1\lib\proasic\smartfusion.v  -sap  C:\Actelprj\andor\synthesis\andor.sap  -ologparam  C:\Actelprj\andor\synthesis\syntmp\andor.plg  -osyn  C:\Actelprj\andor\synthesis\andor.srm  -prjdir  C:\Actelprj\andor\synthesis\  -prjname  andor_syn  -log  C:\Actelprj\andor\synthesis\synlog\andor_fpga_mapper.srr 
+rc:1 success:1
+C:\Actelprj\andor\synthesis\scratchproject.prs|o|1433537699|2029
+C:\Actelprj\andor\synthesis\andor.edn|o|1433537707|27818
+C:\Actelprj\andor\component\work\andor_MSS\mss_tshell_syn.sdc|i|1433537529|190
+C:\Actelprj\andor\synthesis\synwork\andor_prem.srd|i|1433537704|7210
+C:\Actelprj\andor\synthesis\andor.sap|o|1433537704|1277
+C:\Actelprj\andor\synthesis\andor.tap|o|0|0
+C:\Actelprj\andor\synthesis\andor.map|o|1433537707|28
+C:\Microsemi\Libero_v11.5\Synopsys\synplify_I201403MSP1\lib\proasic\smartfusion.v|i|1412951262|72817
+C:\Actelprj\andor\synthesis\andor.sap|o|1433537704|1277
+C:\Actelprj\andor\synthesis\syntmp\andor.plg|o|1433537707|1365
+C:\Actelprj\andor\synthesis\andor.srm|o|1433537707|65547
+C:\Actelprj\andor\synthesis\synlog\andor_fpga_mapper.srr|o|1433537707|17735
+C:\Microsemi\Libero_v11.5\Synopsys\synplify_I201403MSP1\bin\m_proasic.exe|i|1412952226|12576768
+C:\Microsemi\Libero_v11.5\Synopsys\synplify_I201403MSP1\bin64\m_proasic.exe|i|1412954416|15337984

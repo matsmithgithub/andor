@@ -1,0 +1,40 @@
+(DELAYFILE
+(SDFVERSION "OVI 2.1")
+(DESIGN "andor")
+(DATE "123")
+(VENDOR "ProASIC3")
+(PROGRAM "Synplify")
+(VERSION "mapact, Build 1346R")
+(DIVIDER /)
+(VOLTAGE 2.500000:2.500000:2.500000)
+(PROCESS "TYPICAL")
+(TEMPERATURE 70.000000:70.000000:70.000000)
+(TIMESCALE 1ns)
+(CELL
+  (CELLTYPE "andor")
+  (INSTANCE)
+  (TIMINGCHECK
+
+    (PATHCONSTRAINT myandor_0/count\[0\]/CLK  myandor_0/count\[0\]/Q  myandor_0/count_6/A  myandor_0/count_6/Y  myandor_0/count_n2/C  myandor_0/count_n2/Y  myandor_0/count\[2\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT myandor_0/count\[1\]/CLK  myandor_0/count\[1\]/Q  myandor_0/count_6/C  myandor_0/count_6/Y  myandor_0/count_n2/C  myandor_0/count_n2/Y  myandor_0/count\[2\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT myandor_0/count\[1\]/CLK  myandor_0/count\[1\]/Q  myandor_0/count_n1/B  myandor_0/count_n1/Y  myandor_0/count\[1\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT myandor_0/count\[0\]/CLK  myandor_0/count\[0\]/Q  myandor_0/count_n1/A  myandor_0/count_n1/Y  myandor_0/count\[1\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT myandor_0/count\[0\]/CLK  myandor_0/count\[0\]/Q  myandor_0/count_n0/B  myandor_0/count_n0/Y  myandor_0/count\[0\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT myandor_0/count\[2\]/CLK  myandor_0/count\[2\]/Q  myandor_0/count_n2/A  myandor_0/count_n2/Y  myandor_0/count\[2\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT myandor_0/Q0/CLK  myandor_0/Q0/Q  myandor_0/Q1/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT myandor_0/count\[0\]/CLK  myandor_0/count\[0\]/Q  myandor_0/count_i\[0\]/A  myandor_0/count_i\[0\]/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT myandor_0/count\[1\]/CLK  myandor_0/count\[1\]/Q  myandor_0/count_i\[1\]/A  myandor_0/count_i\[1\]/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT myandor_0/count\[2\]/CLK  myandor_0/count\[2\]/Q  myandor_0/count_i\[2\]/A  myandor_0/count_i\[2\]/Y  	(10.0:10.0:10.0) )
+
+  )
+)
+)

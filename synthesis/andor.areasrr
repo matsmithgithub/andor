@@ -1,0 +1,52 @@
+----------------------------------------------------------------------
+Report for cell andor.verilog
+                                          Cell usage:
+                               cell       count     area    count*area
+                                GND         1       0.0        0.0
+                              INBUF         2       0.0        0.0
+                             OUTBUF         6       0.0        0.0
+                                VCC         1       0.0        0.0
+                          andor_MSS         1       0.0        0.0
+                            myandor         1      15.0       15.0
+                            
+                         TOTAL             12                 15.0
+----------------------------------------------------------------------
+Report for cell myandor.netlist
+     Instance path:  myandor_0
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AX1C         1       1.0        1.0
+                             CLKINT         1       0.0        0.0
+                               DFN1         5       1.0        5.0
+                                GND         1       0.0        0.0
+                                INV         3       1.0        3.0
+                              NOR2A         1       1.0        1.0
+                              NOR2B         1       1.0        1.0
+                              NOR3C         1       1.0        1.0
+                                OR2         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                                XA1         1       1.0        1.0
+                               XOR2         1       1.0        1.0
+                            
+                         TOTAL             18                 15.0
+----------------------------------------------------------------------
+Report for cell andor_MSS.netlist
+     Instance path:  andor_MSS_0
+                                          Cell usage:
+                               cell       count     area    count*area
+                                GND         1       0.0        0.0
+                                VCC         1       0.0        0.0
+          andor_MSS_tmp_MSS_CCC_0_MSS_CCC         1       0.0        0.0
+                            
+                         TOTAL              3                  0.0
+----------------------------------------------------------------------
+Report for cell andor_MSS_tmp_MSS_CCC_0_MSS_CCC.netlist
+     Instance path:  andor_MSS_0.MSS_CCC_0
+                                          Cell usage:
+                               cell       count     area    count*area
+                                GND         1       0.0        0.0
+                            MSS_CCC         1       0.0        0.0
+                              RCOSC         1       0.0        0.0
+                                VCC         1       0.0        0.0
+                            
+                         TOTAL              4                  0.0

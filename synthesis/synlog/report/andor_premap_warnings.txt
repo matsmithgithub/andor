@@ -1,0 +1,1 @@
+@W: MT530 :"c:\actelprj\andor\hdl\myando.v":23:0:23:5|Found inferred clock myandor|Q1_inferred_clock which controls 3 sequential elements including myandor_0.count[2:0]. This clock has no specified timing constraint which may adversely impact design performance. 

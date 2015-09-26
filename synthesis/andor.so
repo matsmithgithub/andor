@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<SynplifyOutput>
+	<result>Success</result>
+	<design>andor</design>
+	<target_edif>C:\Actelprj\andor\synthesis\andor.edn</target_edif>
+</SynplifyOutput>

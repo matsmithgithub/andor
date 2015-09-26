@@ -1,0 +1,5 @@
+@W: MO111 :"c:\actelprj\andor\component\work\andor_mss\mss_ccc_0\andor_mss_tmp_mss_ccc_0_mss_ccc.v":64:7:64:18|Tristate driver LPXIN_CLKOUT on net LPXIN_CLKOUT has its enable tied to GND (module andor_MSS_tmp_MSS_CCC_0_MSS_CCC) 
+@W: MO111 :"c:\actelprj\andor\component\work\andor_mss\mss_ccc_0\andor_mss_tmp_mss_ccc_0_mss_ccc.v":63:7:63:20|Tristate driver MAINXIN_CLKOUT on net MAINXIN_CLKOUT has its enable tied to GND (module andor_MSS_tmp_MSS_CCC_0_MSS_CCC) 
+@W: MO111 :"c:\actelprj\andor\component\work\andor_mss\mss_ccc_0\andor_mss_tmp_mss_ccc_0_mss_ccc.v":62:7:62:18|Tristate driver RCOSC_CLKOUT on net RCOSC_CLKOUT has its enable tied to GND (module andor_MSS_tmp_MSS_CCC_0_MSS_CCC) 
+@W: MT420 |Found inferred clock myandor|Q1_inferred_clock with period 10.00ns. Please declare a user-defined clock on object "n:myandor_0.Q1"
+@W: MT548 :"c:/actelprj/andor/component/work/andor_mss/mss_tshell_syn.sdc":2:0:2:0|Source for clock FCLK not found in netlist
